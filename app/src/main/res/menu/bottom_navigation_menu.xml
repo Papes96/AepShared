@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/inventory"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_warehouse_24"
+        android:title="Inventory"
+        android:checked="false"/>
+    <item
+        android:id="@+id/sales"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_point_of_sale_24"
+        android:title="Sales" />
+</menu>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="16dp"
+    android:padding="4dp">
+
+
+    <TextView
+        android:id="@+id/et_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:background="@drawable/shape_item_left"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="3u."
+        app:layout_constraintBottom_toBottomOf="@id/tv_detail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_product"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/header"
+        android:paddingHorizontal="4dp"
+        android:paddingTop="4dp"
+        android:text="[7790250913153] Pañales Babysec Premium Flexiprotect XXG 44u."
+        app:layout_constraintEnd_toStartOf="@id/flow"
+        app:layout_constraintStart_toEndOf="@id/et_quantity"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_detail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/header"
+        android:paddingHorizontal="4dp"
+        android:paddingBottom="4dp"
+        android:text="Outlet"
+        android:textSize="12dp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toStartOf="@id/flow"
+        app:layout_constraintStart_toEndOf="@id/et_quantity"
+        app:layout_constraintTop_toBottomOf="@id/tv_product" />
+
+    <androidx.constraintlayout.helper.widget.Flow
+        android:id="@+id/flow"
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+        android:background="@drawable/shape_item_right"
+        app:constraint_referenced_ids="tv_value, valuee"
+        app:flow_maxElementsWrap="1"
+        app:flow_wrapMode="aligned"
+        app:layout_constraintBottom_toBottomOf="@id/et_quantity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="4dp"/>
+
+    <TextView
+        android:id="@+id/tv_value"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="$20.000" />
+
+    <TextView
+        android:id="@+id/valuee"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="$2.000"
+        android:visibility="gone" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

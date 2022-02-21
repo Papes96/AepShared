@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lavender_pink">#FFFab2cf</color>
+    <color name="puce">#FFC6829E</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="athens_gray">#FFF8F9FB</color>
+    <color name="mine_shaft">#FF222222</color>
+    <color name="iron">#FFE7e7e8</color>
+    <color name="carmine">#FFaf002a</color>
+
+    <color name="header">@color/mine_shaft</color>
+    <color name="primary">@color/puce</color>
+    <color name="text">@color/white</color>
+
+</resources>
+    <!--https://chir.ag/projects/name-that-color/-->
